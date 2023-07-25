@@ -1,0 +1,34 @@
+.border{
+    border: 1px solid;
+    padding: 0.3cm;
+    color: whitesmoke;
+}
+.wadah{
+    width: 900px;
+    margin: auto;
+    background-image: linear-gradient(red,orange,yellow,green,cyan,blue,purple);
+}
+.warna{
+    background-image: linear-gradient(to bottom right, red,black);
+    color: rgb(79, 248, 45);
+}
+img{
+    width: 15vmax;
+    background-image: linear-gradient(to left,red,yellow);
+}
+.card{
+    width: 30%;
+    padding: 3%;
+    box-sizing: border-box;
+    background-image: linear-gradient(red,violet,blue);
+    color: hsl(0, 0%, 100%);
+}
+.horizontal{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+.rata{
+    text-align: center;
+}

@@ -1,0 +1,45 @@
+
+body {
+    background-color: rgb(0, 183, 255);
+}
+
+img {
+    width: 320px;
+    height: 145px;
+}
+
+div {
+    border: 5px solid rgb(153, 101, 24);
+    margin: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+}
+nav{
+    border: solid black;
+}
+
+#submit{
+    background-color: #f5296dee;
+    position:sticky;
+    top: 20px;
+}
+
+.header {
+    background-color: #ff0000;
+}
+
+#deskripsi {
+    background-color: #15ff00;
+    
+}
+
+#tabel{
+    background-color: #fffb00ee;
+}
+
+#video {
+    background-color: #b700ff;
+}
+
+#audio {
+    background-color: #ff00dd ;
+}
