@@ -5,30 +5,64 @@
 }
 .wadah{
     width: 900px;
+    background-image: linear-gradient(to left,red,orange,yellow,green,cyan,blue,purple);
     margin: auto;
-    background-image: linear-gradient(red,orange,yellow,green,cyan,blue,purple);
 }
+li:hover {
+    background-image: linear-gradient(red, black);
+}
+.card:target{
+    background-image: linear-gradient(to bottom right,red,silver,blue);
+}
+.display {
+    display: inline-block;
+    padding: 2%;
+    color: white;
+    cursor: pointer;
+}
+
 .warna{
-    background-image: linear-gradient(to bottom right, red,black);
+    background-image: linear-gradient(to bottom right, rgb(243, 37, 99),rgb(236, 233, 14));
     color: rgb(79, 248, 45);
 }
 img{
     width: 15vmax;
-    background-image: linear-gradient(to left,red,yellow);
+    background: transparent;
 }
 .card{
     width: 30%;
     padding: 3%;
     box-sizing: border-box;
-    background-image: linear-gradient(red,violet,blue);
     color: hsl(0, 0%, 100%);
+}
+
+p::first-letter{
+    color: black;
+    font-size: xx-large;
 }
 .horizontal{
     padding: 10px;
     display: flex;
     justify-content: center;
     column-gap: 30px;
+    row-gap: 30px;
 }
 .rata{
     text-align: center;
+}
+@media only screen and (max-width: 500px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .tempat{
+        width: 80%;
+    }
+    .lebar{
+        width: 100%;
+    }
+    .respon{
+        display: flex;
+        flex-direction: column;
+    }
 }
