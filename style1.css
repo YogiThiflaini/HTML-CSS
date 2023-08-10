@@ -8,11 +8,22 @@
     background-image: linear-gradient(to left,red,orange,yellow,green,cyan,blue,purple);
     margin: auto;
 }
+
+@keyframes animasi {
+    0%   {color:red;}
+    25%  {color:yellow;}
+    50%  {color:green;}
+    75%  {color:blue;}
+    100% {image:purple;}
+  }
+  
+
 li:hover {
     background-image: linear-gradient(red, black);
 }
 .card:target{
     background-image: linear-gradient(to bottom right,red,silver,blue);
+
 }
 .display {
     display: inline-block;
@@ -21,10 +32,18 @@ li:hover {
     cursor: pointer;
 }
 
+
 .warna{
-    background-image: linear-gradient(to bottom right, rgb(243, 37, 99),rgb(236, 233, 14));
+    background-image: linear-gradient(to bottom right,red,yellow);
     color: rgb(79, 248, 45);
 }
+.teks{
+
+}
+.teks:hover{
+    animation: animasi 5s infinite;
+}
+
 img{
     width: 15vmax;
     background: transparent;
