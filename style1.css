@@ -10,11 +10,11 @@
 }
 
 @keyframes animasi {
-    0%   {color:red;}
+    0%   {color:white;}
     25%  {color:yellow;}
     50%  {color:green;}
     75%  {color:blue;}
-    100% {image:purple;}
+    100% {image:red;}
   }
   
 
